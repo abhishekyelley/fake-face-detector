@@ -3,6 +3,5 @@ numpy
 Pillow
 tensorflow==2.12
 pandas
-opencv-python
 mediapipe
-
+opencv-python-headless
