@@ -1,8 +1,7 @@
 streamlit
 numpy
-PIL
-tensorflow
+Pillow
+tensorflow==2.12
 pandas
 mediapipe
-cv2
-keras
+opencv-python
