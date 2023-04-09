@@ -4,4 +4,4 @@ Pillow
 tensorflow==2.12
 pandas
 mediapipe
-opencv-python-headless
+opencv-python-headless==4.5.4.58
