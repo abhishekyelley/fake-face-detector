@@ -9,7 +9,7 @@ from keras.optimizers import Adam
 from PIL import Image
 from tensorflow.keras.applications.resnet50 import preprocess_input
 
-model1 = tf.keras.models.load_model(r"E:/Proshekt/fully_trained_multi_v3.h5", compile=False)
+model1 = tf.keras.models.load_model("fully_trained_multi_v3.h5", compile=False)
 model1.compile(optimizer = Adam(learning_rate=0.0001), loss = 'categorical_crossentropy', metrics=['accuracy'])
 
 def load_one_image(path):
