@@ -1,7 +1,7 @@
 streamlit
 numpy
 Pillow
-opencv-contrib-python-headless
+opencv-python
 tensorflow
 pandas
 mediapipe
