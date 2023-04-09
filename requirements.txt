@@ -1,7 +1,7 @@
 streamlit
 numpy
 Pillow
-tensorflow==2.12
+opencv-python-headless
+tensorflow
 pandas
 mediapipe
-opencv-python-headless==4.5.4.58
