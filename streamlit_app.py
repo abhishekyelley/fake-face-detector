@@ -64,7 +64,7 @@ def predictor(img, res):
 
 # Upload the image file
 
-
+st.markdown("# Current implementation only successfully identifies images generated via Style-GAN algorithm.")
 uploaded_file = st.file_uploader("Choose an image file with a visible face")
 
 min_conf = 0.5
